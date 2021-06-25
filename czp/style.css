@@ -1,0 +1,11 @@
+body{
+    width: 85vw;
+    background: #FAF9DE;
+    font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+}
