@@ -1,11 +1,57 @@
+:root{
+    --bg-cl: #FAF9DE;
+    --ft-cl: black;
+}
+
 body{
-    width: 85vw;
-    background: #FAF9DE;
-    font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
-    margin: 0 auto;
+    width: 470px;
+    background: var(--bg-cl) !important;
+    color: var(--ft-cl) !important;
+    font-family: -apple-system, Arial, Helvetica, sans-serif, STHeiti !important;
+    margin: 0 auto !important;
+}
+
+@media screen and (max-width: 470px) {
+    body {
+        width: 100%;
+    }
+}
+
+.navbar{
+    background: var(--bg-cl) !important;
+    position: sticky !important;
+    top: 0 !important;
+    border: 0 !important;
+}
+
+.dropdown-menu{
+    background: white !important;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.navbar-toggle{
+    border: 0 !important;
 }
 
 .title{
     text-align: center;
-    font-size: 20px;
+    font-size: x-large;
+}
+
+.main_text{
+    margin: 0 auto;
+    width: 85%;
+    text-indent: 30px;
+}
+
+h2{
+    text-align: center;
+    text-indent: 0px;
+}
+
+p{
+    font-size: large;
 }
